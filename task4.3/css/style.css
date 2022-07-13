@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../images/Image\ 1.png) no-repeat right top rgba(255, 250, 243, 1);
+}
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+nav{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+li{
+    display: inline-block;
+    margin-right: 83px;
+}
+
+.obertka{
+    border-bottom: 2px solid rgba(192, 141, 93, 1);
+    display: inline-block;
+    padding-top: 43px;
+    padding-bottom: 42.5px;
+}
+
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 83px;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.active{
+    color: rgba(192, 141, 93, 1);
+}
+
+main{
+    padding: 122.5px 0 68px 0;
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 81px;
+    letter-spacing: 0.06em;
+}
+
+h1 span{
+    display: block;
+    text-transform: none;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 58px;
+    letter-spacing: 0.06em;
+}
+
+h1 span::after{
+    content: url(../images/Logo.svg);
+    width: 45.21px;
+    height: 69.04px;
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+h1::after{
+    content: url(../images/Vector\ 1.svg);
+    width: 165px;
+    display: block;
+    height: 9px;
+}
+
+p{
+    max-width: 535px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 147.6%;
+    letter-spacing: 0.06em;
+    padding-top: 80px;
+}
+
+.button{
+    display: inline-block;
+    background-color: #FFFAF3;;
+    border: 2px solid #C08D5D;
+    text-decoration: none;
+    padding-left: 15px;
+    line-height: 64px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 147.6%;
+    letter-spacing: 0.06em;
+    margin-top: 72px;
+    margin-bottom: 62.5px;
+}
+
+.button::after{
+    content: url(../images/Vector\ 2.svg);
+    display: inline-block;
+    width: 59px;
+    height: 64px;
+    background-color: rgba(192, 141, 93, 1);
+    line-height: 64px;
+    text-align: center;
+    margin-left: 26px;
+}
+
+.scroll{
+    display: block;
+    background-image: url(../images/mouse.svg);
+    width: 33.47px;
+    height: 69.8px;
+    margin: auto;
+    background-repeat: no-repeat;
+    padding-bottom: 68.5px;
+}
